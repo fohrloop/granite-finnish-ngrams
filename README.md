@@ -970,6 +970,15 @@ Comparing to the [finnish.json](https://raw.githubusercontent.com/o-x-e-y/oxeyly
 ```
 </details>
 
+# Want a version of this corpus with slight modifications?
+
+If you want to get this corpus with slight modifications, including some of the following:
+- Converting upper case characters to lower case
+- Ignoring whitespace (removing ngrams with whitespace)
+- Ignoring ngrams with one or more special symbols or other characters
+
+You may use the `ngram_show` from the [granite-tools](https://github.com/fohrloop/granite-tools/) (v.0.2.0+).
+
 # How the ngrams were created
 
 A python package called [vrt2txt](https://github.com/fohrloop/vrt2txt) was used to generate two corpora:
